@@ -1,0 +1,28 @@
+caption{
+    font-size: 30px;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    width: 70%;
+    margin: 20px auto;
+}
+table,th,td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 1rem;
+}
+tr:nth-child(even){
+    background: #ddd;
+}
+thead tr:nth-child(2){
+    background: transparent;
+}
+tr:hover{
+ background: #FFE4C4;
+}
+thead tr:hover{
+    background: transparent;
+}
